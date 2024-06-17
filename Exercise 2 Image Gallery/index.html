@@ -1,0 +1,94 @@
+<!-- Exercise 2: Image Gallery
+Create an HTML page with the following structure:
+
+A header with the title "Image Gallery".
+A container for images. Inside the container, add at least three images with descriptive alt texts.
+Add a paragraph below each image as a caption.
+Style the page using an internal stylesheet:
+
+Center the header text.
+Style the images with a border and some padding.
+Use CSS to position the images in a grid or row layout.
+Style the captions to appear below the images and make them italic. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: paleturquoise;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        text-align: center;
+        padding: 20px 0;
+        background-color: rgb(109, 46, 193);
+        color: white;
+      }
+      .entireContainer {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 20px;
+        padding: 20px;
+      }
+      .image-container {
+        border: 2px solid gray;
+        padding: 15px;
+        text-align: center;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 8px;
+      }
+      .caption {
+        font-style: italic;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Image Gallery</h1>
+    </header>
+
+    <div class="entireContainer">
+      <div class="image-container">
+        <img
+          src="imgs/waterfall.jpg"
+          alt="A beautiful waterfall with trees surrounding the structure"
+        />
+        <p class="caption">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim,
+          molestiae!
+        </p>
+      </div>
+      <div class="image-container">
+        <img
+          src="imgs/skymoon.jpg"
+          alt="A beautiful image of an orange colored moon and sunset sky with clouds"
+        />
+        <p class="caption">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, magni.
+        </p>
+      </div>
+      <div class="image-container">
+        <img
+          src="imgs/city.jpg"
+          alt="A beautiful image with an orange colored sky and city lights blaring in the distance with infrastructure around"
+        />
+        <p class="caption">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis,
+          temporibus?
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
