@@ -1,0 +1,120 @@
+<!--Exercise 1: Personal Profile Page Create an HTML page with the following
+structure: A header with your name. A navigation bar with links to different
+sections: About, Projects, and Contact. An About section with a paragraph about
+yourself, using text formatting. A Projects section with a list of projects.
+Each project should have a title and a brief description. A Contact section with
+your email as a hyperlink. 
+
+Style the page using an internal stylesheet:
+
+Set a background color for the body.
+Style the header with a different color and center the text.
+Style the navigation links to change color when hovered over.
+Style the sections with padding and borders.
+Ensure all text is readable and well-formatted.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Profile Page</title>
+    <style>
+      body {
+        background-color: paleturquoise;
+        font-family: Arial, sans-serif;
+      }
+      header {
+        color: goldenrod;
+        text-align: center;
+        padding: 20px;
+        border-bottom: 2px solid goldenrod;
+      }
+      nav {
+        padding: 10px;
+        border: 2px solid goldenrod;
+        border-radius: 30px;
+        text-align: center;
+        margin: 20px;
+      }
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      nav ul li {
+        display: inline;
+        margin: 0 40px;
+      }
+      nav a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+      }
+      nav a:hover {
+        color: red;
+      }
+      div {
+        border: 2px solid goldenrod;
+        margin: 20px;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Abdulaziz Abukar</h1>
+    </header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div>
+      <h2>About</h2>
+      <p>
+        Hi, I'm <strong>Abdulaziz Abukar</strong>. I am passionate about
+        <em>web development</em> and enjoy creating engaging, functional
+        websites. <br /><br />
+        My journey into web development started with HTML and CSS, and I have
+        been continuously learning and improving my skills since then. I believe
+        in the power of
+        <span style="text-decoration: underline">clean and semantic code</span>.
+      </p>
+    </div>
+    <div>
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <h2>Profile Page</h2>
+          <p>
+            This is a simple profile page showcasing my skills in HTML and CSS.
+            It includes sections for About, Projects, and Contact.
+          </p>
+        </li>
+        <li>
+          <h2>Calculator</h2>
+          <p>
+            A basic calculator application built with HTML, CSS, and JavaScript.
+            It can perform basic arithmetic operations like addition,
+            subtraction, multiplication, and division.
+          </p>
+        </li>
+        <li>
+          <h2>Banking System</h2>
+          <p>
+            A mock banking system project that allows users to create accounts,
+            deposit and withdraw money, and view their transaction history.
+          </p>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h2>Contact</h2>
+      <p><a href="mailto:aziz23@live.ca">You can contact me here!</a></p>
+    </div>
+  </body>
+</html>
