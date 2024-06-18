@@ -1,0 +1,240 @@
+<!-- Exercise 2: Favorite Recipes Page
+Objective: Create a web page that lists your favorite recipes.
+
+Instructions:
+
+HTML Structure:
+
+Create an HTML document with a <head> section containing a title and a link to an external CSS file.
+Use <article> elements for each recipe, and structure the page with <header>, <main>, and <footer> sections.
+Content:
+
+Include a heading and a paragraph for each recipe.
+Add an image for each recipe using the <img> tag.
+Create an ordered list of ingredients and a paragraph describing the preparation steps.
+CSS Styling:
+
+Use basic selectors to style headings, paragraphs, and lists.
+Apply borders and shadows to images.
+Use pseudo-class selectors to change the appearance of links when hovered over.
+Implement CSS rules to style the ordered list with custom numbers or bullets.
+Normalize the CSS and ensure consistent styling across different browsers. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This page of my recipes that i've created."
+    />
+    <meta name="keywords" content="Cook, Recipe, Recipes, Food" />
+    <title>My Recipe Book</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>My Recipes</h1>
+    </header>
+    <main>
+      <article>
+        <h2>Noodles</h2>
+        <img
+          class="image"
+          src="imgs/noodles.jpg"
+          alt="a bowl of fresh flavoury noodles"
+        />
+        <h3>Preperations</h3>
+        <p>
+          Before cooking noodles, it's essential to gather all the necessary
+          ingredients and equipment. Start by selecting the type of noodles you
+          want to cook, such as spaghetti, ramen, or egg noodles. Ensure you
+          have a large pot for boiling water, a colander for draining, and tongs
+          or a fork for stirring. You'll also need enough water to submerge the
+          noodles completely, and optionally, salt to enhance the flavor. If
+          you're planning to add vegetables, meat, or sauce to your noodles,
+          prepare these ingredients by washing, cutting, and setting them aside.
+          Finally, have a timer or a clock handy to monitor the cooking time,
+          ensuring the noodles are cooked to the desired texture.
+        </p>
+        <h3>Step by Step Guide</h3>
+        <ol>
+          <li>
+            <span class="bold">Fill a large pot with water:</span> Add enough
+            water to completely submerge the noodles, typically about 4-6 quarts
+            for a pound of noodles.
+          </li>
+          <li>
+            <span class="bold">Add salt to the water (optional):</span> Add
+            about 1-2 tablespoons of salt to the water to enhance the flavor of
+            the noodles.
+          </li>
+          <li>
+            <span class="bold">Bring the water to a boil:</span> Place the pot
+            on the stove and heat over high heat until the water reaches a
+            rolling boil.
+          </li>
+          <li>
+            <span class="bold">Add the noodles:</span> Once the water is
+            boiling, add the noodles to the pot.
+          </li>
+          <li>
+            <span class="bold">Stir the noodles:</span> Use tongs or a fork to
+            stir the noodles, preventing them from sticking together.
+          </li>
+          <li>
+            <span class="bold">Cook according to package instructions:</span>
+            Follow the cooking time recommended on the noodle package, usually
+            between 8-12 minutes, depending on the type of noodle.
+          </li>
+          <li>
+            <span class="bold">Check for doneness:</span> Test a noodle by
+            tasting it; it should be cooked but still firm, also known as 'al
+            dente.'
+          </li>
+          <li>
+            <span class="bold">Drain the noodles:</span> Once the noodles are
+            cooked to your liking, pour them into a colander to drain the water.
+          </li>
+          <li>
+            <span class="bold">Rinse with cold water (optional):</span> If
+            you're using the noodles for a cold dish or want to stop the cooking
+            process, rinse them briefly with cold water.
+          </li>
+          <li>
+            <span class="bold">Serve immediately:</span> Combine the noodles
+            with your preferred sauce, vegetables, or meat, and serve hot.
+          </li>
+        </ol>
+      </article>
+      <article>
+        <h2>Chicken</h2>
+        <img
+          class="image"
+          src="imgs/chicken.jpg"
+          alt="Spicy bbg glazed chicken wings with ranch on the side"
+        />
+        <h3>Preperations</h3>
+        <p>
+          To make delicious BBQ chicken wings, start by gathering all necessary
+          ingredients and equipment. You'll need fresh or thawed chicken wings,
+          your favorite BBQ sauce, olive oil, salt, pepper, and any additional
+          seasonings you prefer, such as garlic powder or paprika. Ensure you
+          have a large mixing bowl for seasoning the wings, a baking sheet lined
+          with aluminum foil or parchment paper for easy cleanup, and a wire
+          rack to place on the baking sheet for even cooking. Preheat your oven
+          to 400°F (200°C) to get it ready for baking. If you plan to serve the
+          wings with sides or dipping sauces, prepare those as well.
+        </p>
+        <h3>Step by Step Guide</h3>
+        <ol>
+          <li>
+            <span class="bold">Preheat the oven:</span> Set your oven to 400°F
+            (200°C) to ensure its ready for baking.
+          </li>
+          <li>
+            <span class="bold">Prepare the baking sheet:</span> Line a baking
+            sheet with aluminum foil or parchment paper and place a wire rack on
+            top.
+          </li>
+          <li>
+            <span class="bold">Season the chicken wings:</span> In a large
+            mixing bowl, toss the chicken wings with olive oil, salt, pepper,
+            and any additional seasonings you prefer.
+          </li>
+          <li>
+            <span class="bold">Arrange the wings on the rack:</span> Place the
+            seasoned wings on the wire rack in a single layer, ensuring they are
+            not touching each other.
+          </li>
+          <li>
+            <span class="bold">Bake the wings:</span> Put the baking sheet in
+            the preheated oven and bake the wings for about 35-40 minutes,
+            turning them halfway through the cooking time.
+          </li>
+          <li>
+            <span class="bold">Prepare the BBQ sauce:</span> While the wings are
+            baking, warm your BBQ sauce in a small saucepan over low heat.
+          </li>
+          <li>
+            <span class="bold">Coat the wings with sauce:</span> After the wings
+            are cooked and crispy, remove them from the oven. Using tongs, toss
+            the wings in the warm BBQ sauce until they are fully coated.
+          </li>
+          <li>
+            <span class="bold">Return to the oven:</span> Place the coated wings
+            back on the wire rack and bake for an additional 5-10 minutes,
+            allowing the sauce to caramelize and adhere to the wings.
+          </li>
+          <li>
+            <span class="bold">Check for doneness:</span> Ensure the wings are
+            fully cooked by checking that the internal temperature reaches 165°F
+            (74°C) and the sauce is slightly sticky and caramelized.
+          </li>
+          <li>
+            <span class="bold">Serve immediately:</span> Transfer the BBQ
+            chicken wings to a serving platter and serve hot, with your favorite
+            sides or dipping sauces.
+          </li>
+        </ol>
+      </article>
+      <article>
+        <h2>Eggs</h2>
+        <img class="image" src="imgs/eggs.jpg" alt="hot cooked eggs on a pan" />
+        <h3>Preperations</h3>
+        <p>
+          To make perfect sunny side eggs, gather all necessary ingredients and
+          equipment. You'll need fresh eggs, cooking oil or butter, salt, and
+          pepper. Ensure you have a non-stick skillet or frying pan, a spatula,
+          and a small bowl to crack the eggs into before cooking. If desired,
+          you can also prepare additional seasonings or garnishes such as
+          chopped herbs, cheese, or hot sauce. It's helpful to have a lid that
+          fits your skillet to help cook the eggs evenly without flipping them.
+        </p>
+        <h3>Step by Step Guide</h3>
+        <ol>
+          <li>
+            <span class="bold">Heat the skillet:</span> Place a non-stick
+            skillet or frying pan on the stove over medium-low heat.
+          </li>
+          <li>
+            <span class="bold">Add oil or butter:</span> Once the skillet is
+            warm, add a small amount of cooking oil or butter, and let it melt
+            and coat the pan evenly.
+          </li>
+          <li>
+            <span class="bold">Crack the eggs:</span> Crack each egg into a
+            small bowl to ensure there are no shell pieces, then gently slide
+            the eggs into the skillet.
+          </li>
+          <li>
+            <span class="bold">Cook the eggs:</span> Allow the eggs to cook
+            undisturbed until the whites are fully set but the yolks remain
+            runny, about 2-3 minutes.
+          </li>
+          <li>
+            <span class="bold">Season the eggs:</span> Sprinkle salt and pepper
+            over the eggs to taste. If you have a lid, cover the skillet for a
+            minute to help the tops of the whites cook through without
+            overcooking the yolks.
+          </li>
+          <li>
+            <span class="bold">Check for doneness:</span> The whites should be
+            completely set, and the yolks should still be runny and bright.
+          </li>
+          <li>
+            <span class="bold">Serve immediately:</span> Use a spatula to
+            carefully transfer the sunny side eggs to a plate. Serve hot with
+            your choice of sides, such as toast, bacon, or avocado.
+          </li>
+        </ol>
+      </article>
+    </main>
+    <footer>
+      <p>&copy; 2024 My Recipe Book</p>
+    </footer>
+  </body>
+</html>
