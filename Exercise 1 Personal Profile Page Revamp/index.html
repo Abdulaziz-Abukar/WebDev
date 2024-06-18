@@ -1,0 +1,118 @@
+<!-- Exercise 1: Personal Profile Page
+Objective: Create a personal profile page that showcases your details.
+
+Instructions:
+
+HTML Structure:
+
+Create an HTML document with a <head> section containing a title and a link to an external CSS file.
+Use semantic elements like <header>, <section>, and <footer>.
+Include headings, paragraphs, lists, and a table.
+Content:
+
+Add a profile picture using the <img> tag.
+Create a list of your hobbies using <ul>.
+Make a table of your skills with proficiency levels using <table>.
+Include hyperlinks to your social media profiles.
+CSS Styling:
+
+Style the body with a background color and font settings.
+Use CSS selectors to style headings, paragraphs, and lists.
+Add a border and shadow to the profile picture.
+Apply different colors to each section and style the table with borders and alternating row colors.
+Use gradients for the header and footer background. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Profile Page</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header><h1>My Personal Page</h1></header>
+
+    <section class="about">
+      <h2>About Me</h2>
+      <img src="img/Sung.JPG" alt="" class="profilepic" />
+      <p>
+        I am a software engineer student going to WGU. I love to code as not
+        only a hobby, it is something i want to do professionally and become an
+        excellent software engineer!
+      </p>
+    </section>
+    <section class="hobbies">
+      <h2>Hobbies</h2>
+      <p>My hobbies consist of multiple things such as:</p>
+      <ul>
+        <li>
+          <h3>Programming</h3>
+          <p>
+            I love programming and creating things just out of my imagination,
+            it gives me a sense of joy being able to create anything that comes
+            to my mind.
+          </p>
+        </li>
+        <li>
+          <h3>Video Games</h3>
+          <p>
+            Who doesn't love to unwind on a bit of video games once in awhile?
+          </p>
+        </li>
+        <li>
+          <h3>Quality time with my wife</h3>
+          <p>
+            My wife is a very prominent figure in my life. She helps me come
+            back to reality whenever I'm facing difficulties and she's the
+            reason that I'm motivated to do what i do.
+          </p>
+        </li>
+      </ul>
+    </section>
+    <section class="skills">
+      <h2>Skills</h2>
+      <table>
+        <thead class="tablehead">
+          <tr>
+            <th>Skills</th>
+            <th>Experience</th>
+          </tr>
+        </thead>
+        <tbody class="tablebody">
+          <tr>
+            <td>Python</td>
+            <td>Intermediate</td>
+          </tr>
+          <tr>
+            <td>Java</td>
+            <td>Proficient</td>
+          </tr>
+          <tr>
+            <td>Web Dev</td>
+            <td>Beginner</td>
+          </tr>
+          <tr>
+            <td>DSA</td>
+            <td>Intermediate</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>Beginner</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <footer class="socials">
+      <h2>Socials</h2>
+      <ul>
+        <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+        <li>
+          <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        </li>
+        <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
