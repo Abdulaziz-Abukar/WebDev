@@ -1,0 +1,45 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background: #333;
+    padding: .7rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-left: 0;
+}
+
+nav li {
+    margin: .5rem 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+@media screen and (max-width: 430px) {
+    nav ul {
+        flex-direction: column;
+        text-align: end;
+    }
+
+    nav li {
+        margin: 0 1rem;
+    }
+}
